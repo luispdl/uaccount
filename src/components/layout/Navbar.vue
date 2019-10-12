@@ -1,15 +1,16 @@
 <template>
 <div>
     <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light m-2 p-0">
     <!-- Left navbar links -->
-    <ul class="navbar-nav">
-      <li>Pedro Martinez</li>
+    <ul class="navbar-nav m-0 p-0">
+        <img src="../../../src/assets/logo.jpg" alt="" width="64px" height="64px">
     </ul>
     
     <!-- Right navbar links -->
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ml-auto align-items-center">
       <!-- Notifications Dropdown Menu -->
+      <li><em>  Pedro Martinez</em></li>
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
           <i class="fas fa-th-large"></i>

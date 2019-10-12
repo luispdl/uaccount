@@ -1,5 +1,5 @@
 <template>
-    <div>juju</div>
+    <div></div>
 </template>
 <script>
 export default {

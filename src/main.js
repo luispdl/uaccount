@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
-import Home from './components/Home.vue'
 import Main from './components/Main/Index.vue'
 import Account from './components/Main/Account.vue'
 import Investments from './components/Main/Investments.vue'
@@ -10,7 +9,7 @@ Vue.use(VueRouter)
 Vue.config.productionTip = false
 
 const routes = [
-  { path: '/', component: Home },
+  { path: '/',redirect: '/main/account' },
   { path: '/main', component: Main,
     children: [
       { path: 'account', component: Account},
