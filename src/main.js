@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import Main from './components/Main/Index.vue'
 import Account from './components/Main/Account.vue'
 import Investments from './components/Main/Investments.vue'
+import vuetify from './plugins/vuetify';
 Vue.use(VueRouter)
 
 Vue.config.productionTip = false
@@ -27,5 +28,6 @@ const router = new VueRouter({
 
 new Vue({
   render: h => h(App),
+  vuetify,
   router
 }).$mount('#app')

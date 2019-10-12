@@ -25,8 +25,10 @@
 <script>
 export default {
     name: 'Login',
-    data: {
+    data: function() {
+return {
 
-    }
+    };
+}
 }
 </script>
