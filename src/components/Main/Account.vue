@@ -1,12 +1,12 @@
 <template>
     <div>
-        <div>
             <div class="card">
-                <table class="table table-bordered">
+                <table class="table table-striped">
                   <thead>                  
                     <tr>
                       <th style="width: 10px">#</th>
                       <th>Cuenta</th>
+                      <th>Tipo</th>
                       <th>Monto</th>
                     </tr>
                   </thead>
@@ -14,13 +14,13 @@
                     <tr :key='account.id' v-for="(account, key) in accounts">
                       <td>{{ key + 1}}</td>
                       <td>{{ account.bank }}</td>
+                      <td>{{ account.type }}</td>
                       <td><span class="">${{ account.amount }} </span></td>
                     </tr>
                   </tbody>
                 </table>
               </div>
               <!-- /.card-body -->
-        </div>
     </div>
 </template>
 

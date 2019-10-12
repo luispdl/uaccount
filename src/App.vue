@@ -7,7 +7,6 @@
 
 <script>
 import Navbar from './components/layout/Navbar'
-import Header from './components/layout/Header'
 export default {
   name: 'app',
   data: function() {
@@ -16,8 +15,7 @@ export default {
     }
   },
   components: {
-    Navbar,
-    Header
+    Navbar
   }
 }
 </script>
